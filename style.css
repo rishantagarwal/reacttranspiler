@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  height: 5vh;
+  overflow: auto;
+  background-color: #3C948B;
+  color: white;
+  justify-content: center;
+  font-size: 29px;
+}
+
+.container{
+  height: 95vh;
+  display: flex;
+}
+
+pre{
+  background-color: #aa863a;
+}
+
+pre,textarea{
+  width: 50%;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+}
+
+
+textarea:focus{
+
+}

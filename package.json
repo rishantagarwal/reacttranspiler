@@ -1,0 +1,30 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishantagarwal/test.git"
+  },
+  "author": "Rishant Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishantagarwal/test/issues"
+  },
+  "homepage": "https://github.com/rishantagarwal/test#readme",
+  "dependencies": {
+    "babel-browser": "^6.1.19",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "material-ui": "^0.15.4",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
